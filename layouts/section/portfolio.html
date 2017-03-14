@@ -1,8 +1,15 @@
 {{ partial "header.html" . }}
 
+    <section class="filters">
+        <button id="all" autofocus="true">all</button>
+        <button id="dance">dance</button>
+        <button id="design">design</button>
+        <button id="code">code</button>
+    </section>
+
     <section class="portfolio padding">
       {{- range .Data.Pages }}
-      <section class="portfolio_item {{ .Params.size }}" style="background:url(/img/{{ .Params.assets }}/thumb.png) center no-repeat">
+      <section class="portfolio_item {{ .Params.size }} {{ .Params.filter }}" style="background:url(/img/{{ .Params.assets }}/thumb.png) center no-repeat">
           <a href="{{ .Permalink }}"><span>{{ .Title }}</span></a>
       </section>
       {{- end }}

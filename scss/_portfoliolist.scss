@@ -1,5 +1,25 @@
 // Portfolio Grid Styling
 
+.filters{
+    max-width: 1260px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    button{
+        color:$filter;
+        background:$background;
+        border: solid $filter 1px;
+        border-radius: 10px;
+        transition: all .25s;
+        outline: none;
+        // Should be set through js
+        &:focus{
+            color:$background;
+            background: $filter;
+            
+        }
+    }
+}
+
 .portfolio {
     -moz-column-width: 13em;
     -webkit-column-width: 13em;
@@ -9,6 +29,8 @@
     margin: 2rem auto;
     padding-left: 1rem;
     padding-right: 1rem;
+    // if portfolio items < 5 
+    // max-height: 500px;
 }
 
 .portfolio_item {
@@ -35,7 +57,7 @@
         font-family: firamonobold;
         &:hover {
             color: white;
-            background: rgba(17,44,88,.8);
+            background: $tile-hover;
         }
         // position link text
         span {
