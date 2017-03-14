@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+<section class="center-block padding">
+<h1>Posts</h1>
+<section class="post-list">
+    {{ range .Data.Pages }}
+      <section class="post">
+        <h2><a class="link" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h6 class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
+        <p>{{ .Summary }}</p>
+        <p><a class="readmore link" href="{{ .Permalink }}">Read More</a></p>
+      </section>
+    {{- end }}
+</section>
+</section>
+
+{{ partial "footer.html" . }}

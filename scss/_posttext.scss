@@ -1,0 +1,35 @@
+.post{
+    max-width: 750px;
+    width: 100%;
+  .date{
+    margin-top: 14px;
+    margin-bottom: 30px;
+    color: #9B9B9B;
+    font-size: 14px;
+    font-family: firasansbold;
+  }
+  h2{
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+  }
+  h3{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+  // p{margin-bottom: .75rem;}
+  ul,ol{
+    margin-bottom: .75rem;
+    line-height: 1.5rem;
+    margin-left: 1.5rem;
+    li{
+      margin-top: 1rem;
+    }
+  }
+  ol{
+    list-style: decimal;
+  }
+  ul{
+    list-style: disc;
+  }
+}
+

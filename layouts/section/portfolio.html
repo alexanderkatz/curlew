@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+    <section class="portfolio padding">
+      {{- range .Data.Pages }}
+      <section class="portfolio_item {{ .Params.size }}" style="background:url(/img/{{ .Params.assets }}/thumb.png) center no-repeat">
+          <a href="{{ .Permalink }}"><span>{{ .Title }}</span></a>
+      </section>
+      {{- end }}
+    </section>
+
+  {{ partial "footer.html" . }}

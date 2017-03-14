@@ -1,0 +1,86 @@
+// Fira Mono Bold
+@font-face {
+    font-family: 'firamonobold';
+    src: url('../fonts/FiraMono-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+// Fira Mono Regular
+@font-face {
+    font-family: 'firamonoregular';
+    src: url('../fonts/FiraMono-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Fira Sans Bold
+@font-face {
+    font-family: 'firasansbold';
+    src: url('../fonts/FiraSans-Bold.eot');
+    src: url('../fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FiraSans-Bold.woff') format('woff'),
+         url('../fonts/FiraSans-Bold.ttf') format('truetype');
+        //  url('../fonts/FiraSans-Regular-webfont.svg#Firaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+// Fira Sans Semi Bold
+@font-face {
+    font-family: 'firasanssemibold';
+    src: url('../fonts/FiraSans-SemiBold.eot');
+    src: url('../fonts/FiraSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FiraSans-SemiBold.woff') format('woff'),
+         url('../fonts/FiraSans-SemiBold.ttf') format('truetype');
+        //  url('../fonts/Fira-Regular-webfont.svg#Firaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+// Fira Sans Medium
+@font-face {
+    font-family: 'firasansmedium';
+    src: url('../fonts/FiraSans-Medium.eot');
+    src: url('../fonts/FiraSans-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FiraSans-Medium.woff') format('woff'),
+         url('../fonts/FiraSans-Medium.ttf') format('truetype');
+        //  url('../fonts/Fira-Regular-webfont.svg#Firaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Roboto Regular
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto-Regular-webfont.eot');
+    src: url('../fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Roboto Bold
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/Roboto-Bold-webfont.eot');
+    src: url('../fonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+// Roboto Italic
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('../fonts/Roboto-Italic-webfont.eot');
+    src: url('../fonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Italic-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

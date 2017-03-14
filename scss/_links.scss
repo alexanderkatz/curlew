@@ -1,0 +1,12 @@
+a{
+    color: $text;
+}
+
+.link, .post a {
+    border-bottom: 3px solid $accent;
+    color: inherit;
+    transition: background 0.1s cubic-bezier(.33,.66,.66,1);
+    &:hover{
+      background: $accent;
+    }
+}

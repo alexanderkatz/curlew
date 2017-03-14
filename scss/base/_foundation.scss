@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  font-size: 18px;
+  font-family: robotoregular;
+  line-height: 1.5rem;
+  color: $text;
+  background: $background;
+}
+body{
+  height: 100%;
+}
+//  Used to help position footer
+#wrapper{
+  min-height: 100%;
+  position:relative;
+  overflow: hidden;
+}
+
+// Typography
+h1 {
+    font-family: firamonobold;
+    font-size: 48px;
+    line-height: 3rem;
+}
+
+h2 {
+    font-family: firamonobold;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: firamonobold;
+    font-size: 24px;
+}
+
+h4 {
+    font-family: robotoregular;
+}
+h5 {
+    font-family: robotoregular;
+}
+h6 {
+    font-family: robotoregular;
+    font-size: .75rem;
+}
+p {
+    font-family: robotoregular;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: .75rem;
+}

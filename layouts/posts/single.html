@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+
+<section class="center-block padding">
+  <section class="post">
+      <h1>{{ .Title }}</h1>
+    <h6 class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</h6>
+    {{ .Content }}
+  </section>
+</section>
+{{ partial "footer.html" . -}}

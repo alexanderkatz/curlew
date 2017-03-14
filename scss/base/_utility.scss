@@ -1,0 +1,19 @@
+/* Utility Classes */
+
+// Place on page content to ensure Class ensures footer has enough space, place on content
+.padding{
+  padding-bottom: 150px;
+}
+.center-block{
+  margin: auto;
+  max-width: 750px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.page-title{margin-bottom: 2rem;}
+
+.topmargin{margin-top: 2em;}
+
+// Push flex child right
+.push-right{margin-left: auto !important;}

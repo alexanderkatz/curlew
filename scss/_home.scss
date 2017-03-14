@@ -1,0 +1,57 @@
+/* _home.scss */
+
+.homepage {
+    header a {
+        color: white;
+    }
+
+    .bg-wrapper {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        background: url('../img/home/monkeyflip@0.5x.jpg') 65% 90%;
+        background-size: cover;
+        display: flex;
+    }
+
+    #blurb {
+        // color: #44C0FF;
+        color: white;
+        align-self: center;
+        padding-left: 7%;
+    }
+
+    footer a {
+        color: white;
+    }
+}
+@media all and (max-width:599px) {
+    .home {
+        background: url('../img/home/monkeyflip@0.2x.jpg') 65% 90%;
+        background-size: cover;
+    }
+
+    #blurb {
+        h1 {
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+    }
+}
+@media all and (min-width:600px) and (max-width:1000px) {
+    #blurb {
+        h1 {
+            font-size: 2.5rem;
+            line-height: 3.75rem;
+        }
+    }
+}
+@media all and (min-width:1001px) {
+    #blurb {
+        h1 {
+            font-size: 3.5rem;
+            line-height: 5rem;
+        }
+    }
+}

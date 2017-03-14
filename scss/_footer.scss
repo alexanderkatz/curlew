@@ -1,0 +1,21 @@
+footer {
+  width: 100%;
+  height: 108px;
+  position: absolute;
+  bottom: 0px;
+  nav{
+    border-top: solid #D8D8D8 1px;
+    width: 90%;
+    max-width: 750px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    div{
+      width: 33%;
+      max-width: 180px;
+      align-self: center;
+      text-align: center;
+    }
+  }
+}
