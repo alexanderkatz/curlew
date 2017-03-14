@@ -216,18 +216,6 @@ a {
   .link:hover, .post a:hover {
     background: #01FFC7; }
 
-code {
-  font-family: firamonoregular;
-  color: #F4F4F4;
-  background: #484848;
-  font-size: .9rem; }
-
-.highlight {
-  margin: 15px 0px;
-  padding: 1rem 0px;
-  overflow: auto;
-  font-family: firamonoregular; }
-
 /* _home.scss */
 .homepage header a {
   color: white; }
