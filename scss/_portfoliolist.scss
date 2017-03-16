@@ -1,5 +1,5 @@
-// Portfolio Grid Styling
-
+// // Portfolio Grid Styling
+// 
 .filters{
     max-width: 1260px;
     margin: 2rem auto;
@@ -19,25 +19,23 @@
         }
     }
 }
-
+// 
 .portfolio {
-    -moz-column-width: 13em;
-    -webkit-column-width: 13em;
-    -moz-column-gap: 1em;
-    -webkit-column-gap: 1em;
+//     -moz-column-width: 13em;
+//     -webkit-column-width: 13em;
+//     -moz-column-gap: 1em;
+//     -webkit-column-gap: 1em;
     max-width: 1260px;
     margin: 2rem auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    // if portfolio items < 5 
-    // max-height: 500px;
 }
-
+// 
 .portfolio_item {
     background-size: cover !important;
-    display: inline-block;
     margin-bottom: 1rem;
-    width: 100%;
+    width: 235px;
+    
     // Standard portfolio item height, specify in front-matter
     &.std {
         height: 250px;

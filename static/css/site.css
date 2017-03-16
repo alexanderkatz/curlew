@@ -351,10 +351,6 @@ img.browser {
       background: #112c58; }
 
 .portfolio {
-  -moz-column-width: 13em;
-  -webkit-column-width: 13em;
-  -moz-column-gap: 1em;
-  -webkit-column-gap: 1em;
   max-width: 1260px;
   margin: 2rem auto;
   padding-left: 1rem;
@@ -362,9 +358,8 @@ img.browser {
 
 .portfolio_item {
   background-size: cover !important;
-  display: inline-block;
   margin-bottom: 1rem;
-  width: 100%; }
+  width: 235px; }
   .portfolio_item.std {
     height: 250px; }
   .portfolio_item.poster {
