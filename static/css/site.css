@@ -340,7 +340,7 @@ img.browser {
   margin: 1rem auto;
   padding: 0 1rem; }
   .filters button {
-    margin-right: .5rem;
+    margin-right: .25rem;
     font-size: 1rem;
     font-family: firamonoregular;
     color: #112c58;
@@ -349,7 +349,7 @@ img.browser {
     border-radius: 10px;
     transition: all .25s;
     outline: none; }
-    .filters button:focus {
+    .filters button.active {
       color: #F4F4F4;
       background: #112c58; }
 

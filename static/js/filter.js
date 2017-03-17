@@ -14,13 +14,17 @@ var iso = new Isotope( '.portfolio', {
 });
 
 // Add Event Listener to Filter Buttons
-document.querySelector(".filters").addEventListener("click", filter);
-
-// selected category
-var selected = '';
+var buttons = document.querySelectorAll(".filters button");
+forEach(buttons, function(b){
+    b.addEventListener("click", filter);   
+});
 
 // Filter by button id
 function filter(e) {
+    forEach(buttons, function (b) {
+        b.className='';
+    });
+    e.target.className = "active";
     if (e.target.id == 'all') {
         iso.arrange({filter: '*'});
     } else {
