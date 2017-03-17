@@ -1,0 +1,21 @@
+{
+  "name": "Curlew",
+  "version": "1.0.0",
+  "description": "Theme for Hugo.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderkatz/curlew.git"
+  },
+  "keywords": [
+    "Hugo Theme",
+    "Theme"
+  ],
+  "author": "Alex Katz",
+  "bugs": {
+    "url": "https://github.com/alexanderkatz/curlew/issues"
+  },
+  "homepage": "https://github.com/alexanderkatz/curlew#readme",
+  "dependencies": {
+    "isotope-layout": "^3.0.3"
+  }
+}
