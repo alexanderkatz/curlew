@@ -2,9 +2,12 @@
 // 
 .filters{
     max-width: 1260px;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 0 1rem;
     button{
+        margin-right: .5rem;
+        font-size: 1rem;
+        font-family: firamonoregular;
         color:$filter;
         background:$background;
         border: solid $filter 1px;

@@ -337,9 +337,12 @@ img.browser {
 
 .filters {
   max-width: 1260px;
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding: 0 1rem; }
   .filters button {
+    margin-right: .5rem;
+    font-size: 1rem;
+    font-family: firamonoregular;
     color: #112c58;
     background: #F4F4F4;
     border: solid #112c58 1px;
