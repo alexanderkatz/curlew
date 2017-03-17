@@ -2,7 +2,7 @@
 
 Curlew is a theme for Hugo.
 
-<img src="static/img/curlew.jpg"/>
+<img src="https://c1.staticflickr.com/4/3181/2772592278_9a3f4446db_b.jpg"/>
 
 
 ## Installation
@@ -21,6 +21,6 @@ Gulp is used to compile the SCSS files.
 
 Is used to create the portfolio masonry grid and filtering.
 
-##Attribution
+## Attribution
 
 [Kev Chapman](https://www.flickr.com/photos/25553993@N02/2772592278/) - Wonderful Curlew photograph
