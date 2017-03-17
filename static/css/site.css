@@ -359,7 +359,7 @@ img.browser {
 .portfolio_item {
   background-size: cover !important;
   margin-bottom: 1rem;
-  width: 235px; }
+  width: calc(100% - 2rem); }
   .portfolio_item.std {
     height: 250px; }
   .portfolio_item.poster {
@@ -381,6 +381,10 @@ img.browser {
       top: 1rem;
       left: 1rem;
       right: .5rem; }
+
+@media all and (min-width: 525px) {
+  .portfolio_item {
+    width: 235px; } }
 
 .post-list {
   margin: auto; }

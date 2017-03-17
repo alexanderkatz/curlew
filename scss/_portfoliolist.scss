@@ -19,23 +19,20 @@
         }
     }
 }
+
+
+
 // 
 .portfolio {
-//     -moz-column-width: 13em;
-//     -webkit-column-width: 13em;
-//     -moz-column-gap: 1em;
-//     -webkit-column-gap: 1em;
     max-width: 1260px;
     margin: 2rem auto;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-// 
 .portfolio_item {
     background-size: cover !important;
     margin-bottom: 1rem;
-    width: 235px;
-    
+    width: calc(100% - 2rem);    
     // Standard portfolio item height, specify in front-matter
     &.std {
         height: 250px;
@@ -66,3 +63,9 @@
         }
     }
 }
+
+@media all and (min-width:525px) {
+    .portfolio_item {
+        width: 235px;
+    }
+} 
