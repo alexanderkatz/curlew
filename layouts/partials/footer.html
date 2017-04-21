@@ -2,6 +2,7 @@
 <!-- </section> -->
 
 <footer>
+        
   <nav id="footer-nav">
     <div><a class="link" target="_blank" href="https://www.linkedin.com/in/alexanderjkatz">LinkedIn</a></div>
     <div><a class="link" target="_blank" href="https://github.com/alexanderkatz">GitHub</a></div>
@@ -12,8 +13,11 @@
 <!-- End Wrapper -->
 </div>
 
-<script src="/js/isotope.pkgd.min.js"></script>
-<script src="/js/filter.js"></script>
+<!-- Only inlude isotope for portfolio -->
+{{ if eq .RelPermalink "/portfolio/" }}
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="/js/filter.js"></script>
+{{ end }}
 
 <!-- Google Analytics -->
 <script>
